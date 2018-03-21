@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Båträknare</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
+  
+</head>
+
+<body>
+  <header>
+    <h1>Båträknaren</h1>
+  </header>
+  
+  <div class="container">
+    <table class="table-inputs" >
+      <thead class="thead hide">
+        <tr>
+          <th>
+            Namn
+          </th>
+          <th>
+            Antal minuter
+          </th>
+        </tr>
+      </thead>
+      <tbody class="tbody">
+
+      </tbody>
+    </table>
+    
+    <div class="div-buttons">
+      <button class="button btn-add">Lägg till <i class="fas fa-plus"></i></button>
+      <button class="button btn-reset" disabled="true">Starta om <i class="fas fa-undo-alt"></i></button>
+      <button class="button btn-submit" disabled="true">Räkna ut <i class="fas fa-calculator"></i></button>
+
+      <label for="rates" >Pris per minut</label>
+      <input type="text" name="rates" class="rate-input" placeholder="Pris per minut" disabled="true" />
+      
+      <label for="start-fee">Startavgift</label>
+      <input type="text" name="start-fee" class="start-fee-input" placeholder="Startpris" disabled="true" />
+
+    </div>
+    <div class="result"></div>
+    
+  </div>
+  <script src="./js/DataController.js"></script>
+  <script src="./js/UIController.js"></script>
+  <script src="./js/Controller.js"></script>
+</body>
+
+</html>

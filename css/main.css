@@ -1,0 +1,160 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  line-height: 5rem;
+  color: #fff;
+}
+
+.hide {
+  display: none !important;
+}
+
+.show {
+  display: block;
+}
+
+.error {
+  border: 2px solid red;
+}
+
+header {
+  height: 5rem;
+  background-color: steelblue;
+  margin-bottom: 1rem;
+}
+
+/* INPUTS */
+
+input:focus {
+  border: 2px solid lightskyblue;
+}
+
+input {
+  border: none;
+  border: 2px solid #d1d1d1;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+.table-inputs td {
+  text-align: center;
+  width: 50%;
+}
+
+td input {
+  width: 90%;
+}
+
+/* TABLES */
+
+table {
+  border-collapse: collapse;
+}
+
+.thead {
+  display: table-header-group;
+}
+
+.thead th {
+  width: 50%;
+}
+
+th {
+  font-size: 1.2em;
+  padding: 1rem;
+}
+
+td {
+ text-align: center;
+ padding: 5px;
+}
+
+.first-td-child {
+  text-align: left;
+}
+
+.blank-row {
+  height: 1rem;
+}
+
+.table-result td {
+  border-bottom: 1px solid #ddd;
+}
+
+/* LAYOUT */
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.table-inputs, table {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.div-buttons {
+  margin: 1rem auto;
+  display: inline-flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+button, .rate-input, .start-fee-input {
+  margin: 10px auto;
+  width: 60%;
+}
+
+label {
+  text-align: center;
+}
+
+/* BUTTONS */
+
+.button {
+  height: 2rem;
+  border: none;
+  border-radius: 10px;
+  width: 70%;
+}
+
+.btn-add {
+  height: 4rem;
+  font-size: 1.2rem;
+  color: white;
+  background-color: #008000;
+}
+
+.btn-reset {
+  font-size: 1.2rem; 
+  height: 2.5rem;
+  color: white;
+  background-color: red;
+}
+
+.btn-submit {
+  font-size: 1.2rem; 
+  height: 2.5rem;
+  color: white;
+  background-color: steelblue;
+}
+
+.btn-submit:disabled,
+.btn-reset:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.remove-row-btn {
+  font-size: 1.5em;
+  color: red;
+}
