@@ -1,7 +1,7 @@
 # boat-calculator
 Calculate boat fees
 
-A simple webbapp to calculate costs specific to my dad's dock/boat adventures.
+A simple webbapp in ordinary javascript to calculate costs specific to my dad's dock/boat adventures.
 
 http://micke.a2hosted.com/pappa/
 
